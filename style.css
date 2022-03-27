@@ -5,7 +5,7 @@
 header{
     display: flex;
     align-items: center;
-    background: rgba(0, 128, 0, 0.1);
+    background: rgba(128, 92, 0, 0.1);
     height: 425px;
 
 }
@@ -13,7 +13,7 @@ header h1{
     text-transform: uppercase;
     margin-bottom: 30px;
 }
-header h1 span{
+span{
     color: orange;
 }
 .header-element{
@@ -34,4 +34,36 @@ header a{
     padding: 10px 40px;
     border-radius: 5px;
     
+}
+#title{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 40px;
+}
+.flexible-container{
+    display: flex;
+    align-items: center;
+}
+
+.box-style{
+    width: 40%;
+    margin: 5%;
+    padding: 25px;
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 10px;
+    border-left: 7px solid ;
+    border-image: linear-gradient( rgb(27, 3, 242), rgb(151, 158, 187));
+    border-image-slice: 1;
+
+}
+.box-style h3{
+    margin: 15px 0;
+}
+.single-box{
+    border-image: linear-gradient( rgb(226, 65, 6), rgb(196, 152, 120));
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    margin-bottom: 20px;
 }
